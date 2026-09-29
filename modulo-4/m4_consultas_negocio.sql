@@ -1,4 +1,4 @@
-/* =============================================================
+/* ============================================================
    m4_consultas_negocio.sql
    Proyecto: RetailPro (checkpoint M3: base Ventas_Tech_DB)
    Motor utilizado: SQL Server (T-SQL) - SQL Server Management Studio (SSMS)
