@@ -1,4 +1,4 @@
-/* ============================================================
+/* =============================================================
    m4_consultas_negocio.sql
    Proyecto: RetailPro (checkpoint M3: base Ventas_Tech_DB)
    Motor utilizado: SQL Server (T-SQL) - SQL Server Management Studio (SSMS)
@@ -110,10 +110,11 @@ GO
 --    de lo facturado ($4.740 de $6.444), mientras que el cliente 4 gastó
 --    apenas $510, siete veces menos que el cliente 1.
 
--- 3. Las 10 ventas cargadas en M3 caen todas en marzo de 2024, así que
---    la Consulta 1 y la Consulta 4 hoy devuelven un solo mes: al haber
---    un único período, ese mes coincide exactamente con el promedio
---    general y la Consulta 4 lo clasifica como "Por debajo" (no es
---    estrictamente mayor al promedio). Las consultas ya están listas
---    para funcionar de forma representativa apenas se carguen ventas de
---    más meses.
+-- 3. El producto 2 (Mouse Inalámbrico) es el de mayor volumen de todos
+--    -13 unidades vendidas, más del doble que cualquier otro producto-
+--    pero solo representa el 5,6% de la facturación total ($364 de
+--    $6.444). Es un producto de alto tráfico y bajo ticket: conviene
+--    evaluar combinarlo en un bundle con productos de mayor margen
+--    (por ejemplo, con el Teclado Mecánico o los Auriculares BT Pro)
+--    para subir el ticket promedio sin perder el volumen de ventas que
+--    ya genera.
